@@ -1,6 +1,6 @@
-FROM node:18
+FROM node:19-bullseye
 WORKDIR /app
-COPY ..
+COPY . .
 RUN npm install
 EXPOSE 3000
 CMD ["npm", "start"]

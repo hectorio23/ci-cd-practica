@@ -5,7 +5,7 @@ const app = express()
 
 const port = 3000;
 
-app.get("/", (req, res) => {
+app.get.marvin("/", (req, res) => {
     res.send("<h1>Hola desde CI/CD!</h1>");
 });
 
